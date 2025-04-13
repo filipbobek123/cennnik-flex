@@ -1,0 +1,70 @@
+*{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+  }
+
+
+.title {
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+    width: 100%;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    border: 2px solid #2973B2;
+}  
+
+.container {
+
+    display: flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    text-align: center;
+    height: 70vh;
+}
+
+.card {
+    flex: 1;
+    flex-grow: 1;
+    max-width: 450px;
+    flex-shrink: 1;
+    background-color: #f2f2f2;
+    margin-top: 50px;
+    border-radius: 10px;
+    height: 610px;
+    border: 2px solid #2973B2;
+
+.kurs {
+    font-size: 1.5rem;
+}    
+
+.cena {
+    background-color: #2973B2;
+    font-size: 4rem;
+}
+
+#dni {
+    color: red;
+    font-weight: bold;
+}
+}
+.card ul {
+    font-size: 2rem;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width: 1350px) {
+    .container {
+        flex-flow: column;
+        align-items: center;
+        height: 100%;
+    }
+    .card {
+        width: 500px;
+    }
+    
+}
